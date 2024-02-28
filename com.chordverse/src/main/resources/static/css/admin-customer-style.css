@@ -1,0 +1,112 @@
+@charset "UTF-8";
+body {
+    font-family: Candara;
+    padding: 0;
+   /* background-color: #2f3c4f;*/
+    background-image: url("/images/music3.jpg");
+    background-repeat: no-repeat;
+  	background-size: 1540px 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background: #9fd3c7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #25161b;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #719192;
+    color: #25161b;
+}
+
+tr {
+	background-color: #dfcdc3;
+    color: #25161b;
+}
+
+
+audio {
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    width: 300px;
+    
+}
+
+audio:hover {
+    cursor: pointer;
+}
+
+h1 {
+    color: #272343;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #ececec;
+    background-color: #272343;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 200px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #38598b;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+	background-color: #333;
+	
+}
+
+.nav-link {
+	color: white;
+}
+
+.navbar-brand{
+	color: white;
+	margin-left: 20px;
+	font-family: Candara;
+	font-weight: bold;
+}
+	

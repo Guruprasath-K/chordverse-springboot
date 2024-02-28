@@ -1,0 +1,71 @@
+/* ViewSongs-style.css */
+
+body {
+    font-family: Candara;
+   /* background-color: #f5dd7b;*/
+    background-image: url("/images/music3.jpg");
+    background-repeat: no-repeat;
+  	background-size: 1540px 800px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #25161b;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #719192;
+    color: #25161b;
+}
+
+tr {
+	background-color: #dfcdc3;
+    color: #25161b;
+}
+
+
+audio {
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    width: 300px;
+    
+}
+
+audio:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+	background-color: #333;
+	
+}
+
+.nav-link {
+	color: white;
+}
+
+.navbar-brand{
+	color: white;
+	margin-left: 20px;
+	font-family: Candara;
+	font-weight: bold;
+}
+	

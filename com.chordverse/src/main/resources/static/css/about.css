@@ -1,0 +1,39 @@
+body {
+    font-family: Candara, sans-serif;
+    margin: 20px;
+    /*background: linear-gradient(to bottom, #e1b382, #2d545e);*/
+    background-image: url("/images/music2.jpg");
+    background-repeat: repeat;
+  	background-size: 1540px 850px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.container {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #12343b;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	color: #c89666;
+}
+
+section {
+    margin: 30px 15px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

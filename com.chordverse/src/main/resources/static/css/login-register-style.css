@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body {
+	/*background: linear-gradient(to bottom, #e1b382, #2d545e);*/
+    background-image: url("/images/music2.jpg");
+    background-repeat: no-repeat;
+  	background-size: 1540px 800px;
+	font-family: Candara;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #12343b;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	color: #c89666;
+}
+
+form {
+	margin-top: 20px;
+
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: #c89666;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	width: 350px;
+	border-radius: 5px;
+}
+
+.inline {
+	display: inline;
+	 width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	font-family: Candara;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	width: 150px;
+	margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+	background-color: #555;
+}
+
+/* Style for radio buttons */
+input[type="radio"] {
+    vertical-align: middle;
+    justify-content: center;
+   	width: 50px;
+}
+
+/* Style for radio button labels */
+label[for^="gender"],
+label[for^="role"], 
+label[for^="rememberMe"]{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+    justify-content: center;
+   	width: 50px;
+}

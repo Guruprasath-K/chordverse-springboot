@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>ChordVerse : REGISTER</title>
+<link rel="stylesheet" th:href="@{/css/login-register-style.css}" />
+</head>
+<body>
+	<div class="container">
+		<h1>USER REGISTRATION</h1>
+		<form action="register" method="post">
+			<label>User Name: </label> 
+			<input type="text" name="username" id="username" required> 
+			<br> 
+			<label>E-mail: </label> 
+			<input type="text" name="email" id="email" required> 
+			<br> 
+			<label>Password: </label> 
+			<input type="text" name="password" id="password" required> 
+			<br>
+			<label>Gender: </label> 
+			<label for="male" class="inline"><input type="radio" name="gender" value="male" required>Male </label> 	
+			<label for="female" class="inline"><input type="radio" name="gender" value="female" required>Female </label>  	 
+			<label for="others" class="inline"><input type="radio" name="gender" value="others" required>Others </label> 
+			<br> 
+			<label>Role: </label> 
+			<label for="admin" class="inline"><input type="radio" name="role" value="admin" required>Admin </label> 
+			<label for="female" class="inline"><input type="radio" name="role" value="customer" required>Customer </label> 
+			<br> 
+			<label>Address: </label>
+			<textarea name="address" id="address" rows="5" cols="50"></textarea>
+			<br> 
+			<input type="submit" value="Submit">
+		</form>
+		</div>
+</body>
+</html>

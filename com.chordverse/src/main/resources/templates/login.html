@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ChordVerse : LOGIN</title>
+    <link rel="stylesheet" th:href="@{/css/login-register-style.css}" />
+</head>
+<body>
+    <div class="container">
+        <h1>USER LOGIN</h1>
+        <form action="validate" method="post">
+            <label>E-mail: </label>
+            <input type="text" name="email" id="email" required>
+            <br>
+            <label>Password: </label>
+            <input type="password" name="password" id="password" required>
+            <br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>

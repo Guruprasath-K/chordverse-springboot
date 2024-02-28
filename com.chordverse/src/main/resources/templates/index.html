@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>ChordVerse: HOME</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+	crossorigin="anonymous">
+
+<link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+
+		<nav class="navbar navbar-expand-lg ">
+			<a class="navbar-brand" >ChordVerse</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarNav" aria-controls="navbarNav"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active"><a class="nav-link" href="/">Home
+					</a></li>
+					<li class="nav-item"><a class="nav-link" href="/about">About</a>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="/privacyPolicy">Privacy Policy</a></li>
+					<li class="nav-item"><a class="nav-link" href="/contactUs">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+	<div class="container">
+		<h1>ChordVerse : Your Ultimate Music Experience</h1>
+		<p>Discover a world of rhythm and melody with ChordVerse, your go-to
+			destination for a seamless music journey. Immerse yourself in a vast
+			library of tracks spanning genres, from chart-topping hits to hidden
+			gems waiting to be uncovered.</p>
+		<p>🎵 Explore Diverse Genres: Dive into a musical universe that
+			caters to every taste. Whether you're into pop, rock, hip-hop, or
+			classical, ChordVerse has it all.</p>
+		<p>🔍 Smart Recommendations: Let our intelligent recommendation
+			engine curate playlists tailored to your unique preferences. Explore
+			new artists and tracks that match your musical taste.</p>
+		<p>📱 Anywhere, Anytime Access: Enjoy your favorite tunes on the
+			go. With our mobile-friendly design, ChordVerse is your companion
+			wherever you are.</p>
+		<p>🎧 High-Quality Audio: Immerse yourself in crystal-clear sound
+			quality. Experience your favorite tracks the way they were meant to
+			be heard.</p>
+		<p>🤝 Community Interaction: Connect with fellow music
+			enthusiasts. Share playlists, discover new favorites, and join
+			discussions on the latest trends in the music world.</p>
+		<p>How It Works: 🎶 Sign Up or Log In: Create your account to
+			unlock personalized features or log in to access your curated
+			playlists. 🎧 Discover and Play: Explore our extensive music catalog,
+			discover new releases, and create playlists for every mood. 🤩
+			Personalized Experience: Like and save your favorite tracks, allowing
+			ChordVerse to tailor recommendations based on your preferences. 🌐
+			Connect with Others: Share your musical journey, collaborate on
+			playlists, and stay connected with the ChordVerse community. Join us in
+			celebrating the universal language of music. Tune in, turn up the
+			volume, and let the music play! Start your musical adventure with
+			ChordVerse today.</p>
+		<div class="button-container">
+			<a th:href="@{/login}"><button>Login</button></a> <a
+				th:href="@{/register}"><button>Register</button></a>
+		</div>
+	</div>
+
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+</body>
+</html>
