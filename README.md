@@ -25,13 +25,13 @@ ChordVerse is a music streaming application built on the Spring Boot framework. 
 ### 1. Clone the repository:
 
  ```bash
-    $ git clone https://github.com/yourusername/chordverse.git
+    $ git clone https://github.com/Guruprasath-K/chordverse-springboot.git
  ```
 
 ### 2. Navigate to the project directory:
 
  ```bash
-    $ cd chordverse
+    $ cd chordverse-springboot
  ```
 
 ### 3. Configure the database settings in `application.properties`.
